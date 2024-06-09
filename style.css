@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%
+}
+
+body{
+    background-image: radial-gradient(#1f2b94,#151B54);
+    color: #87CEEB;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+canvas{
+    border: solid 0.2em #87CEEB;
+    height: 90vh;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        margin-top: 150px;
+    }
+    canvas{
+        height: 100%;
+    }
+}
